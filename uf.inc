@@ -1070,9 +1070,9 @@ stock SendClientMessageToAdmins(colour,const str[]) //By Mike (Edited by Sacky)
 	return ret;
 }
 
-stock Float:GetDistanceBetweenPoints(Float:x1,Float:y1,Float:z1,Float:x2,Float:y2,Float:z2) //By Gabriel "Larcius" Cordes
+stock Float:GetDistanceBetweenPoints(Float:x1,Float:y1,Float:z1,Float:x2,Float:y2,Float:z2) //By milous22 (https://github.com/milous22)
 {
-	return floatadd(floatadd(floatsqroot(floatpower(floatsub(x1,x2),2)),floatsqroot(floatpower(floatsub(y1,y2),2))),floatsqroot(floatpower(floatsub(z1,z2),2)));
+	return floatsqroot(floatadd(floatadd(floatpower(floatsub(x1,x2),2),floatpower(floatsub(y1,y2),2)),floatpower(floatsub(z1,z2),2)));
 }
 
 stock Float:GetDistanceToPoint(playerid,Float:x1,Float:y1,Float:z1) //By Gabriel "Larcius" Cordes
