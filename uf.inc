@@ -1039,21 +1039,16 @@ stock VehicleDriverID(vehicleid)
 	return GetVehicleDriverID(vehicleid);
 }
 
-stock IsNumeric(const string[]) //By Jan "DracoBlue" Schütze (edited by Gabriel "Larcius" Cordes
+IsNumeric(const string[])//By Jan "DracoBlue" Schütze (edited by Gabriel "Larcius" Cordes
 {
-	new length=strlen(string);
-	if(length==0)
+	new j = strlen(string);
+	if(j == 0) return 0;
+
+	for(new i = 0; i < j; i++)
 	{
-		return 0;
+		if(string[i] > '9' || string[i] < '0') return 0;
 	}
-	for (new i=0; i<length; i++)
-	{
-		if (!((string[i] <= '9' && string[i] >= '0') || (i==0 && (string[i]=='-' || string[i]=='+'))))
-		{
-			return false;
-		}
-	}
-	return 0;
+	return 1;
 }
 
 stock SendClientMessageToAdmins(colour,const str[]) //By Mike (Edited by Sacky)
