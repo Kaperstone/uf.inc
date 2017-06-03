@@ -1039,7 +1039,7 @@ stock VehicleDriverID(vehicleid)
 	return GetVehicleDriverID(vehicleid);
 }
 
-IsNumeric(const string[])//By Jan "DracoBlue" Schütze (edited by Gabriel "Larcius" Cordes
+stock IsNumeric(const string[])//By Jan "DracoBlue" Schütze (edited by Gabriel "Larcius" Cordes
 {
 	new j = strlen(string);
 	if(j == 0) return 0;
