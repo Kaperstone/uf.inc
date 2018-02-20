@@ -1,34 +1,36 @@
-/*  SA:MP Useful Functions
+/*  SA:MP Useful Functions maintained by Kaperstone
+ *  Repository link: https://github.com/Kaperstone/uf.inc
  *
- *  (c) Copyright 2005-2006, Credits:
+ *  (c) Copyright 2005-2018 under MIT license
  *
- *  Alex "Y_Less" Cole
- *  Jan "DracoBlue" Schütze
- *  Gabriel "Larcius" Cordes
- *  Rafelder
- *  Mike
- *  Slick
- *  Allan
- *  SidViciousII
- *  Darkrealm
- *  El Presy
- *  Spectre
- *  mabako
- *  Sacky
- *  Boss
- *  Toxic
- *  dyraXon
- *  yellowblood
- *  50p
- *  rapidZ
- *  Tratulla
- *  Kamazy
- *  Simon
- *  yom
- *  Betamaster
- *  Peter
- *  kool
- *  Hellomy
+ *  Credits:
+ *   Alex "Y_Less" Cole
+ *   Jan "DracoBlue" Schütze
+ *   Gabriel "Larcius" Cordes
+ *   Rafelder
+ *   Mike
+ *   Slick
+ *   Allan
+ *   SidViciousII
+ *   Darkrealm
+ *   El Presy
+ *   Spectre
+ *   mabako
+ *   Sacky
+ *   Boss
+ *   Toxic
+ *   dyraXon
+ *   yellowblood
+ *   50p
+ *   rapidZ
+ *   Tratulla
+ *   Kamazy
+ *   Simon
+ *   yom
+ *   Betamaster
+ *   Peter
+ *   kool
+ *   Hellomy
  *
  */
 
